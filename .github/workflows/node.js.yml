@@ -27,4 +27,8 @@ jobs:
     - run: npm install
 #    - run: npm ci
     - run: CI=false npm run build
+    - uses: actions/upload-artifact@v2
+      with:
+        name: static
+        path: build/
 #    - run: npm test
