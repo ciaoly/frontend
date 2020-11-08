@@ -27,4 +27,4 @@ jobs:
     - run: npm install
 #    - run: npm ci
     - run: CI=false npm run build
-    - run: npm test
+#    - run: npm test
